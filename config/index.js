@@ -4,30 +4,10 @@ export const config = {
    */
 
   // 公众号APP_ID 
-  // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
-  // 如果你非要填这里也行。脚本也能运行
   // APP_ID: "wx39e4a624aea19caa",
-
   // 公众号APP_SECRET 
-  // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
-  // 如果你非要填这里也行。脚本也能运行
   // APP_SECRET: "e2ba1c7fff43d25688923536ba6fee8",
 
-  /**
-   * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
-   * [
-   *  {
-   *    // 想要发送的人的名字
-   *    name: "早上好",
-   *    // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-   *    id: "oQhUU5zWVw2j4IliXYv0ps_zeiTY",
-   *    // 你想对他发送的模板消息的模板ID
-   *    useTemplateId: "HuHu5gxmAx6XTta6aXCTHsS4z2-hG_RO1m0BHFv8rPA ",
-   *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-   *    openUrl: "https://wangxinleo.cn"
-   *   }, 
-   * ]
-   */
   USERS: ["oQhUU5zWVw2j4IliXYv0ps_zeiTY"]
     {
       // 想要发送的人的名字
@@ -44,45 +24,24 @@ export const config = {
       openUrl: "https://wangxinleo.cn"
     }, 
     {
-      name: "老婆1", 
+      name: "爸爸", 
       id: "",
       useTemplateId: "",
       province: "",
       city: "",
       openUrl: "https://wangxinleo.cn"
     }, 
-    {
-      name: "老婆2",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      openUrl: "https://wangxinleo.cn"
-    }, 
-    {
-      name: "老婆3", 
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      openUrl: "https://wangxinleo.cn"
-    }, 
-  ],
-
-  /**
-   * 回调消息 相关，主要用来展示发送是否成功/失败的数据
-   */
 
   // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "zjV1glIuCXo4Csr23aXWEio1iP74sZJ7IQEES95lDsg6c4yOU",
+  CALLBACK_TEMPLATE_ID: "HuHu5gxmAx6XTta6aXCTHsS4z2-hG_RO1m0BHFv8rPA",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
-  CALLBACK_USERS: [
+  CALLBACK_USERS: ["oQhUU5zWVw2j4IliXYv0ps_zeiTY"]
     {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohx12OO6VskYv03Kuf43ywIZVRM4puXhk",
+      id: "oQhUU5zWVw2j4IliXYv0ps_zeiTY",
     }, 
   ],
     
