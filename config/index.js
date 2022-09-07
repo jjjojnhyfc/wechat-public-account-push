@@ -1,4 +1,4 @@
-export const config = {
+
   /**
    * 公众号配置
    */
